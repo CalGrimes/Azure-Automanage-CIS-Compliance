@@ -10,14 +10,14 @@
 #        retrieve it using the key vault data source.               #
 #####################################################################
 
-variable "rg-name" {
+variable "rgname" {
   type = string
   default = "rg-automanage"
 }
 
 variable "location" {
   type = string
-  default = "westeurope"
+  default = "West Europe"
 }
 
 variable "username" {
