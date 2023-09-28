@@ -14,7 +14,7 @@
 - Wait for all the resources to be created in the portal
 
 
-- Enter `terraform destroy` to remove all resources created
+> Enter `terraform destroy` to remove all resources created
 
 
 
