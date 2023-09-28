@@ -29,3 +29,12 @@ variable "password" {
     type = string
     default = "Password1234!"
 }
+variable "tenant_id" {
+  type = string
+  default = "3329baa8-5b96-476e-bb2b-14952cb22ad5"
+}
+
+variable "subscription_id" {
+  type = string
+  default = "9c931c83-0c28-4325-9b03-1e03605a0150"
+}
