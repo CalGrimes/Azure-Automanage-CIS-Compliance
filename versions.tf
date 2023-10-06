@@ -1,3 +1,7 @@
+#######################################################################                                            #
+#   Description: This file contains the terraform code to             #
+#                configure the required providers for the deployment. #
+#######################################################################
 terraform {
   required_providers {
     azurerm = {

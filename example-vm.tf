@@ -14,7 +14,7 @@ resource "azurerm_virtual_network" "vnet" {
   address_space       = ["10.0.0.0/24"]
 }
 
-# This is the subnet that to contain the VM
+# This is the subnet that will contain the VM
 resource "azurerm_subnet" "subnet" { 
   name                 = "azure-automanage-example-subnet"
   resource_group_name  = azurerm_resource_group.rg.name
